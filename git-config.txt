@@ -1,0 +1,11 @@
+#setter functions
+git config --global user.name "jithendrabsy"
+git config --global user.email jithendra123@gmail.com
+
+#getter functions
+git config user.name 
+git config user.email
+
+#ammend commit author after making it (force push necessary if already pushed - because it will change 
+# the history of the repo)
+git commit --amend --author="Jithendra Yenugula" <jithendra1230@gmail.com>"
